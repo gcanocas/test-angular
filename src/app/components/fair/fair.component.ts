@@ -8,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 export class FairComponent implements OnInit {
 
   title= 'Proyecto para hacer pruebas en angular';
+
   constructor() { }
 
   ngOnInit(): void {
   }
+
+
 
 }
