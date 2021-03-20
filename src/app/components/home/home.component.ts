@@ -22,8 +22,7 @@ export class HomeComponent implements OnInit {
     console.log('Llega aquí');
     this.fairdataService.getFairData().subscribe(
       fair => {
-        this.fair.name = fair.fairName
-        this.fair.locale = fair.defaultLocale.name;
+        this.fair = fair;
       }
     );
   }
